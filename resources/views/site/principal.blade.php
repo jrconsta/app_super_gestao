@@ -31,8 +31,8 @@
                 <h1>Contato</h1>
                 <p>Caso tenha qualquer dúvida por favor entre em contato com nossa equipe pelo formulário abaixo.<p>
                 
-                @component('site.layouts._componests.form_components')
-                
+                @component('site.layouts._componests.form_components', ['classe' => 'borda-branca'])
+                    <h3>Component na view Principal</h3>
                 @endcomponent
             </div>
         </div>

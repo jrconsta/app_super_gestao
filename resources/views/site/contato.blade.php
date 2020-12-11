@@ -11,8 +11,8 @@
 
         <div class="informacao-pagina">
             <div class="contato-principal">
-                @component('site.layouts._componests.form_components')
-                    
+                @component('site.layouts._componests.form_components', ['classe' => 'borda-preta'])
+                    <p>Component na view contato</p>
                 @endcomponent
             </div>
         </div>  
