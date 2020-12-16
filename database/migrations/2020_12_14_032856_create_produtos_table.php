@@ -18,9 +18,9 @@ class CreateProdutosTable extends Migration
             $table->string('nome', 100);
             $table->text('descrição')->nullable();
             $table->integer('peso')->nullable();
-            $table->float('preço_venda', 100)->default(0.01);
+            /*$table->float('preco_venda', 8, 2)->default(0.01);
             $table->integer('estoque_minino')->default(1);
-            $table->integer('estoque_maximo')->default(1);
+            $table->integer('estoque_maximo')->default(1);*/
             $table->timestamps();
         });
     }
